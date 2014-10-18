@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Custom-FB-UI",
+  "description": "Experience FB a whole new way",
+  "version": "0.1",
+  "background": {"scripts": ["background.js"]},
+  "permissions": [
+    "tabs","activeTab"
+  ],
+  "optional_permissions":["*://*/*"],
+  "browser_action": {
+    "default_icon": "icon-48.png",
+    "default_title": "Custom-FB-UI"
+  },
+  "icons" : {
+    "19" : "icon-19.png",
+    "128" : "icon-128.png"
+  },
+  "short_name":"Custom-FB-UI"
+} 
